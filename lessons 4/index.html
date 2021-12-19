@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>lessons 2</title>
+</head>
+<body>
+<form action="#" method="get">
+    <div>
+        <p>Имя:</p>
+        <input type="text" tabindex="1" value="Имя" name="username" id="username">
+        <label for="username"></label>
+    </div>
+    <div>
+        <p>Пароль:</p>
+        <input type="password" tabindex="2" value="password" name="userpass" id="userpass">
+        <label for="userpass"></label>
+    </div>
+    <div>
+        <p>Телефон:</p>
+        <input type="tel" tabindex="3" name="tel" id="tel">
+        <label for="tel"></label>
+    </div>
+    <div>
+        <p>Пол</p>
+        <div>
+        <input checked type="radio" tabindex="4" name="gender" id="man" value="man">
+            <label for="man">Мужской</label>
+        </div>
+        </div>
+        <div>
+            <input type="radio" name="gender" tabindex="4" id="woman" value="woman">
+            <label for="woman">Женский</label>
+        </div>
+        <div>
+            <p>Имущество</p>
+            <div>
+                <input type="checkbox" tabindex="5" name="velik" checked id="velik">Велик
+                <label for="velik"></label>
+            </div>
+            <div>
+                <input type="checkbox" tabindex="6" name="car" id="car">Машина
+                <label for="car"></label>
+            </div>
+            <div>
+                <input type="checkbox" tabindex="7" disabled name="house" value="house" id="house" >Дом
+                <label for="house"></label>
+            </div>
+        </div>
+        <div>
+            <p>Дополнительная информация</p>
+            <textarea tabindex="8" name="text" id="text"></textarea>
+            <label for="text"></label>
+        </div>
+        <div>
+            <p>Прикрепите фото</p>
+            <input tabindex="9" type="file">
+        </div>
+        <div>
+            <p>Любимый цвет</p>
+            <select name="color" id="color">
+                <option value="red">красный</option>
+                <option value="blue">синий</option>
+                <option selected value="green">зеленый</option>
+            </select>
+            <label for="color"></label>
+        </div>
+
+    <div>
+        <p>Действия</p>
+        <input type="submit" value="Отправить">
+        <input type="reset" value="Сбросить">
+    </div>
+</form>
+</body>
+</html>

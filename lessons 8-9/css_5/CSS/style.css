@@ -1,0 +1,124 @@
+/*Обнуление*/
+*{padding: 0;margin: 0;border: 0;}
+*,*:before,*:after{-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
+/*--------------------*/
+
+body{
+	font-family: "Times New Roman";
+	padding: 150px 330px 30px 330px;
+
+	color: #273d46;
+	background:#e8e8e8 url("Ellipse_1_copy.png") 260px 180px/ 70%  no-repeat ;
+
+
+}
+
+.title {
+	text-align: center;
+
+	text-transform: uppercase;
+	letter-spacing: 2.8px;
+	opacity: 0.6;
+	margin: 28px;
+
+}
+
+.h1 {
+	text-align: center;
+	font-size: 36px;
+	margin: 28px 80px;
+	line-height:1.5;
+
+}
+
+.divimg {
+	display: block;
+	margin: 80px 4.5%;
+	width: 841px;
+	height: 561px;
+
+	background:white url('light-man_copy.png') center no-repeat ;
+	background-size: 821px 541px;
+}
+
+p.size24 {
+	font-size: 24px;
+	opacity: 0.8;
+	text-align: left;
+	margin: 30px 10%;
+	line-height:1.5;
+}
+
+.list {
+	margin: 50px 10%;
+	font-family: Arial;
+}
+.list li {
+	font-size: 20px;
+	margin: 0 0 13px 0;
+	background: url("check_icon.png") left/ 25px 19px no-repeat;
+	padding: 0 0 0 30px;
+
+
+
+}
+
+.spanli1 {
+	text-shadow: 0 1px 0 rgba(0, 0, 0, 0.3);
+	color: #273d46;
+}
+.spanli2 {
+	font-style: italic;
+	color: #80b7b3;
+}
+.spanli3 {
+	color: #273d46;
+	font-weight: bold;
+}
+.spanli4 {
+	opacity: 0.3;
+	color: #273d46;
+	text-decoration: line-through;
+}
+
+
+.divbottom {
+	display: block;
+	border-radius: 20px;
+	box-shadow: 0 6px 40px rgba(128, 183, 179, 0.54);
+	width: 199px;
+	height: 44px;
+	margin: 50px 10%;
+	background: rgba(128, 183, 179, 0.54) url("Shape_2.png") 150px 15px/ 21px 14px no-repeat;
+	color: #ffffff;
+	font-size: 14px;
+	font-family: "Arial MT";
+	letter-spacing: 2.8px;
+	text-transform: uppercase;
+
+	padding: 15px 0 0 26px;
+
+
+}
+
+
+.back {
+	display: block;
+	margin: 0 0 100% 0;
+	height: 100%;
+
+
+}
