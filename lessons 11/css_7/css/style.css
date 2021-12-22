@@ -1,0 +1,209 @@
+/*Обнуление*/
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+*, *:before, *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+:focus, :active {
+    outline: none;
+}
+
+a:focus, a:active {
+    outline: none;
+}
+
+nav, footer, header, aside {
+    display: block;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+    font-family: inherit;
+}
+
+input::-ms-clear {
+    display: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+a, a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+/*--------------------*/
+
+
+body {
+    padding: 10vh 0 0 0;
+    font-family: "Arial MT";
+}
+
+div.block {
+    margin: 0px auto;
+    max-width: 50%;
+
+}
+
+div.block p {
+    margin: 0 0 40px 0;
+    line-height: 28px;
+    font-size: 18px;
+
+}
+
+ul {
+    font-size: 20px;
+}
+
+.list1 {
+    display: block;
+    margin: 0 0 80px 0;
+
+}
+
+.list1 li {
+    background: url("check_icon.png") left no-repeat;
+    margin: 0 0 15px 0;
+    padding: 0 0 0 35px;
+    color: #273d46;
+
+}
+
+.list1 li:first-child {
+    text-decoration: line-through;
+}
+
+.list1 li:nth-child(2) {
+    font-weight: 700;
+    letter-spacing: normal;
+}
+
+.list1 li:nth-child(3) {
+    font-style: italic;
+}
+
+.list1 li:last-child {
+    text-transform: uppercase;
+}
+
+.list2 {
+    display: block;
+    margin: 0 0 80px 0;
+}
+
+.list2 li {
+    margin: 0 0 15px 0;
+    color: #273d46;
+    background: url("check_icon.png") left no-repeat;
+    padding: 0 0 0 35px;
+}
+
+.hoverli {
+    display: block;
+}
+
+.hoverli:hover {
+    color: #d55a5a;
+    background: url("check_iconred.png") left no-repeat;
+    /*opacity: 0.5;*/
+}
+
+.bottom {
+    display: block;
+    width: 199px;
+    height: 44px;
+    border-radius: 25px;
+    box-shadow: 0 6px 40px rgba(128, 183, 179, 0.54);
+    background: rgba(128, 183, 179, 0.54) url("Shape_2.png") 150px 15px/ auto no-repeat;
+    margin: 130px 0 0 0;
+    font-size: 14px;
+    text-align: left;
+    text-transform: uppercase;
+    letter-spacing: 2.8px;
+    padding: 0 0 0 30px;
+    color: white;
+}
+
+.bottom:hover {
+    background: #3a5856 url("Shape_2.png") 150px 15px/ auto no-repeat;
+}
+
+.bottom:active {
+    box-shadow: 0 0 0;
+    background: #818181 url("Shape_2.png") 150px 15px/ auto no-repeat;
+}
+
+.textform {
+    display: block;
+    width: 200px;
+    height: 50px;
+    border: 2px solid black;
+    margin: 130px 0 60px 0;
+    font-size: 14px;
+}
+
+.textform:hover {
+    box-shadow: 0 6px 40px rgba(128, 183, 179, 1);
+}
+
+
+.psclass1 {
+    font-size: 18px;
+
+}
+
+.psclass1:first-line {
+    color: red;
+}
+
+.psclass2 {
+
+
+}
+
+.psclass2:first-letter {
+    color: red;
+    font-size: 24px;
+}

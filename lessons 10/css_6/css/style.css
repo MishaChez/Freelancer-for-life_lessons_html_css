@@ -193,3 +193,16 @@ text-transform: uppercase;
     box-shadow: 0 0 0;
     background: #818181 url("Shape_2.png") 150px 15px/ auto no-repeat;
 }
+
+.textform {
+    display: block;
+    width: 200px;
+    height: 50px;
+    border: 2px solid black;
+    margin: 130px 0 0 25vw;
+    font-size: 14px;
+}
+
+.textform:hover {
+    box-shadow: 0 6px 40px rgba(128, 183, 179, 1);
+}
